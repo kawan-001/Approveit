@@ -17,24 +17,6 @@ const wrongSound = new Audio("../sounds/caught.wav");
 const flipSound = new Audio("../sounds/select.wav");
 const endSound = new Audio('../sounds/win.wav');
 
-// Função para carregar os arquivos JSON no dropdown
-function loadFileList() {
-    const files = [
-        { name: "../data/chess.json", label: "Termos de Xadrez" },
-        { name: "../data/ing-family.json", label: "Palavras -ing" },
-        { name: "../data/actions.json", label: "Ações" },
-        { name: "../data/ing-family-short.json", label: "Palavras -ing short" }
-    ];
-
-
-    files.forEach(file => {
-        const option = document.createElement("option");
-        option.value = file.name;
-        option.textContent = file.label;
-        fileDropdown.appendChild(option);
-    });
-}
-
 // Função para carregar os dados do arquivo selecionado
 function loadGameData(fileName) {
     fetch(fileName)
@@ -192,4 +174,4 @@ fileDropdown.addEventListener("change", () => {
 restartBtn.addEventListener("click", restartGame);
 
 // Carregar a lista de arquivos ao carregar a página
-window.onload = loadFileList;
+window.onload = loadFileList(fileDropdown);
