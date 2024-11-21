@@ -2,10 +2,10 @@
 // Função para carregar os arquivos JSON no dropdown
 function loadFileList(element) {
   const files = [
-      { name: "../data/chess.json", label: "Termos de Xadrez" },
-      { name: "../data/ing-family.json", label: "Palavras -ing" },
+      { name: "../data/chess.json", label: "Xadrez" },
+      // { name: "../data/ing-family.json", label: "Palavras -ing" },
       { name: "../data/actions.json", label: "Ações" },
-      { name: "../data/ing-family-short.json", label: "Palavras -ing short" }
+      { name: "../data/ing-family-short.json", label: "Palavras -ing" }
   ];
 
   files.forEach(file => {
