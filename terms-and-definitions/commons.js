@@ -5,7 +5,8 @@ function loadFileList(element) {
       { name: "../data/chess.json", label: "Xadrez" },
       // { name: "../data/ing-family.json", label: "Palavras -ing" },
       { name: "../data/actions.json", label: "Ações" },
-      { name: "../data/ing-family-short.json", label: "Palavras -ing" }
+      { name: "../data/ing-family-short.json", label: "Palavras -ing" },
+      {name:"../data/matematica.json", label: "Conceitos e Fórmulas Matemáticas"}
   ];
 
   files.forEach(file => {

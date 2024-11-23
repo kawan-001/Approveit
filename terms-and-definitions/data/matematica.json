@@ -1,0 +1,13 @@
+[
+    { "term": "Possui três ângulos", "definition": "Triângulo" },
+    {"term": "Números de 0 a 9", "definition": "Naturais"}, 
+    {"term": "Números fracionários", "definition": "Irracionais"},
+    {"term": "Uma parte pelo todo", "definition": "Fração" },
+    {"term": "(n-1)!", "definition": "Permutação circular"},
+    {"term": "(n-m)²", "definition": "Produtos Notáveis"},
+    {"term": "Cateto Oposto / Cateto Adjacente", "definition": "Tangente"},
+    {"term": "2*pi*R", "definition": "Comprimento do circulo"},
+    {"term": "2*R", "definition": "Diametro"},
+    {"term": "L²", "definition": "Área do quadrado"}
+
+]
